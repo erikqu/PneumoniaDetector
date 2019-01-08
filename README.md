@@ -1,8 +1,13 @@
-# PneuomniaDetector
-Quick and dirty Pneumonia detector capable of 79% accuracy after a few epochs.
+# TRWSUN  (THE RADIOLOGIST WILL SEE YOU NOW)
+Quick and dirty Pneumonia detector that is on par with radiologists' ability to determine whether there is pneumonia in an xray or not.
+
+Current accuracy on a single training epoch is 79%.
+The network is based on INCEPTION_V3 architecture with a custom top.
+
+
 
 ### TODO
 
 #### -clean up generators 
-#### -make all images generated from in-memory, rather on disk
-#### -integer division makes ytrue, ypred different lengths (sometimes)
+#### -make all images generated from in-memory, rather on disk (in-memory wasn't terribly slow)
+#### -integer division makes ytrue, ypred different lengths (sometimes) 
