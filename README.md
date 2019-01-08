@@ -11,3 +11,4 @@ The network is based on INCEPTION_V3 architecture with a custom top.
 #### -clean up generators 
 #### -make all images generated from in-memory, rather on disk (in-memory wasn't terribly slow)
 #### -integer division makes ytrue, ypred different lengths (sometimes) 
+#### -use basenet with smaller footprint for other devices (?)
