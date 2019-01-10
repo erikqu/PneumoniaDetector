@@ -4,6 +4,8 @@ Quick and dirty Pneumonia detector that is on par with radiologists' ability to 
 Current accuracy on a single training epoch is 79%.
 The network is based on INCEPTION_V3 architecture with a custom top.
 
+Please note the accuracy printed is after *two* epochs, so leave it at one epoch when training ;)
+
 Based on Chest X-Ray dataset from Kaggle.com
 
 
@@ -19,6 +21,6 @@ Based on Chest X-Ray dataset from Kaggle.com
 ### TODO
 
 #### -clean up generators 
-#### -make all images generated from in-memory, rather on disk (in-memory wasn't terribly slow)
+#### -make all images generated from in-memory, rather on disk (in-memory wasn't terribly slow-- ~20s initial epoch, ~12s following epochs on RTX 2080)
 #### -integer division makes ytrue, ypred different lengths (sometimes) 
 #### -use basenet with smaller footprint for other devices (?)
