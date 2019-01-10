@@ -4,6 +4,8 @@ Quick and dirty Pneumonia detector that is on par with radiologists' ability to 
 Current accuracy on a single training epoch is 79%.
 The network is based on INCEPTION_V3 architecture with a custom top.
 
+Based on Chest X-Ray dataset from Kaggle.com
+
 
 ### USAGE
 
