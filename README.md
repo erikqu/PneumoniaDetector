@@ -11,16 +11,16 @@ Based on Chest X-Ray dataset from Kaggle.com
 
 ### USAGE
 
-#### After the images are resized, simply train the model for a single epoch (no more) and then save.
-#### Once the model is saved (all the code is there already) use TRWSUN to load the model and then you can predict on any image.
+After the images are resized, simply train the model for a single epoch (no more) and then save.
+Once the model is saved (all the code is there already) use TRWSUN to load the model and then you can predict on any image.
 
 ### DEPENDENCIES
 
-#### NumPy, Keras, Cv2
+NumPy, Keras, Cv2
 
 ### TODO
 
-#### -clean up generators 
-#### -make all images generated from in-memory, rather on disk (in-memory wasn't terribly slow-- ~20s initial epoch, ~12s following epochs on RTX 2080)
-#### -integer division makes ytrue, ypred different lengths (sometimes) 
-#### -use basenet with smaller footprint for other devices (?)
+-clean up generators 
+-make all images generated from in-memory, rather on disk (in-memory wasn't terribly slow-- ~20s initial epoch, ~12s following epochs on RTX 2080)
+-integer division makes ytrue, ypred different lengths (sometimes) 
+-use basenet with smaller footprint for other devices (?)
